@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(231, 225, 168);
+}
+a{
+    color: black;
+}
+#display{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 10px auto;
+    padding: 10px;
+    gap: 20px;
+    
+}
+.user_Card{
+    background-color: rgb(226, 248, 241);
+border: 1px solid black;
+margin: 10px;
+padding: 10px;
+box-shadow: 0px 5px 10px 0.5px;
+}

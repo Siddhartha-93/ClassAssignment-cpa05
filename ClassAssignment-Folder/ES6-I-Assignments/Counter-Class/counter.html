@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auto counter</title>
+    <style>
+        div {
+            font-size: xxx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Counter-Class</h1>
+
+
+    <button class="incre" onclick="incre()">increment</button>
+    <button id="strt" onclick="stopStart()">Start/Stop</button>
+    <button class="decre" onclick="decre()">decrement</button>
+    <!-- <button  class="stop" onclick="stop()">Stop</button> -->
+</body>
+
+</html>
+<script>
+    let time = 0;
+    let intId = null;
+    let div = document.createElement("div")
+    function stopStart() {
+        if (intId != null) {
+            stop()
+        } else {
+            intId = setInterval(() => {
+                console.log(div.textContent = (time++))
+            }, 1000);
+        }
+    }
+    let incre = () => {
+        stop();
+        let cont = setTimeout(() => { div.textContent = (time++) });
+    }
+
+    let decre = () => {
+        setTimeout(() => { console.log(div.textContent = (time--)) });
+        stop();
+    }
+
+    let stop = () => clearInterval(intId)
+    document.body.append(div)
+
+
+</script>

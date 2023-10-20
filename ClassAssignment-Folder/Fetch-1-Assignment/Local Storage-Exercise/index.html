@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- input fields to accept a user's name and age. -->
+<!--     
+    <div class="contenar">
+        <h1>Showing Form Data</h1>
+        <input type="text" placeholder="Enter youe Name" id="name">
+        <input type="text" placeholder="Enter your Age" id="age">
+        <button class="bt1" onclick="formSubmit()">Submit</button>
+        <button class="bt1" onclick="cheakData()">Your Form</button>
+        <div class="displayElemant"></div>
+    </div> -->
+
+
+    <div class="container">
+        <h1>Local Storage Example</h1>
+    <label >Name:</label>
+        <input type="text" placeholder="Enter youe Name" id="userName" required>
+        <label >Age:</label>
+        <input type="text" placeholder="Enter youe Age" id="age"required>
+    
+        <button onclick="userInfo()">submit</button>
+        <button onclick="showInfo()">Retriev</button>
+        <div id="displayData">
+            <!-- Data will be displayed here -->
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="index.js"></script>

@@ -1,0 +1,14 @@
+body{
+background-color: rgb(218, 221, 221);
+text-align: center;
+
+}
+.user_Card{
+    background-color: rgb(222, 199, 245);
+    border:  1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px auto;
+    /* text-align: center; */
+    box-shadow: 0px 0px 10px 2.5px;
+}

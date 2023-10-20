@@ -1,0 +1,43 @@
+body{
+    background: antiquewhite;
+}
+marquee{
+    background-color:rgb(250, 218, 177);
+}
+#display {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    margin: 16px auto;
+    padding: 10px;
+}
+.contenar{
+ display: grid;   
+ background: rgb(250, 228, 199);
+}
+
+.movieCard{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+.movieImg{
+  width: 300px;
+  height: 400px;
+  max-width: auto;
+}
+
+label {
+    text-align: center;
+    margin: 10px;
+    padding: 3px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  #searchButton , #movie {
+    font-size: larger;
+  }

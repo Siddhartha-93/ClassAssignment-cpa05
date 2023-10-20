@@ -1,0 +1,9 @@
+.contenar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.display{
+    border: 1px solid black;
+    /* height: 200px; */
+    background-color: rgb(252, 244, 173);
+}

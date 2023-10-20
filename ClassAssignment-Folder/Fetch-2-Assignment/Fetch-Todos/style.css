@@ -1,0 +1,31 @@
+.contenar{
+    margin: 30px;
+    text-align: center;
+}
+.contenar h1{
+    background-color: chocolate;
+}
+.userCrd{
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.table {
+    border: 1px solid black;
+    width: 80%;
+    margin: 15px auto;
+  }
+.head {
+    background: #d7c4ac;
+  }
+.id{
+    width: 20%;
+    
+}
+.task{
+    width: 60%;
+}
+.body {
+    font-size: 20px;
+    background: #f0d0a7;
+  }
